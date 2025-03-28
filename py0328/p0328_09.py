@@ -1,15 +1,14 @@
-import random
+# 구구단 출력하시오.
+# 2 X 1 = 2
+# 9 X 1 = 9
 
-a_list = random.sample(range(1,45+1),6)
-
-ran_list = []
-i = 0
-while i<6:
-    ran_input = random.randint(1,45)
-    if ran_input not in ran_list:
-        ran_list.append(ran_input)
-        i = i + 1
+for i in range(1,10):
+    for j in range(2,10):
+        print("{} X {} = {}".format(j,i,i*j),end="   ")
+    print()
 
 
 
-print(a_list)
+# ## 은행가면 001 002 003... 010 011 012... 999
+# for i in range(0,1000):
+#     print("{:03d}".format(i))
