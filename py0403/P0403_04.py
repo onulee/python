@@ -77,7 +77,7 @@ while True:
         print("당첨개수 : ",len(win_lotto))
         
     elif choice == 4:
-        print("[ 로또리스트 모두 확인 ]")
+        print("[ 로또리스트 모두 확인 ]") #1-45 확인
         print(lotto)
     elif choice == 5:
         print("[ 내가입력한 로또번호 확인 ]")
